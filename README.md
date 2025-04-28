@@ -64,9 +64,17 @@ We demonstrate that quantum-enhanced hyperparameter optimization can **outperfor
 
  Quantum optimization led to **~11% improvement** in classification accuracy compared to classical training.
 
+## Download Pre-trained Model
+
+We host the large `finbert_qaoa_optimized` model externally to keep this repo lightweight.
+
+You can download the models from the below link:
+
+"https://drive.google.com/drive/folders/1IWYWJ9Eu9UMh04-B2Dzeyf353pK42uBS?usp=sharing"
+
 ---
 
-## 🔮 Future Work
+## Future Work
 - Experiment with **Grover's Algorithm** for optimization.
 - Scale up on **larger financial datasets**.
 - Explore running QAOA/VQE on **real quantum hardware**.
@@ -82,5 +90,8 @@ Feel free to use, modify, and distribute it with attribution.
 ## Author
 **[Md Rahatul Ashakin]**  
 For any queries or collaboration, feel free to connect!
+
+
+
 
 ---
