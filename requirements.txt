@@ -1,0 +1,12 @@
+transformers
+datasets
+scikit-learn
+torch
+qiskit
+qiskit-aer
+qiskit-optimization
+matplotlib
+pandas
+numpy
+seaborn
+nltk

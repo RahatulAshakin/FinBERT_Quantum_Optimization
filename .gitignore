@@ -1,0 +1,25 @@
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+
+# Ignore VSCode / PyCharm folders
+.vscode/
+.idea/
+
+# Ignore HF model cache
+**/cached_*  
+**/*.safetensors.lock
+
+# Ignore OS system files
+.DS_Store
+Thumbs.db
+
+# Ignore large model files
+models/
+"models/" 
+"models/" 
+models/ 
+results/ 
