@@ -35,7 +35,7 @@ We demonstrate that quantum-enhanced hyperparameter optimization can **outperfor
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/your-username/FinBERT_Quantum_Optimization.git
+    git clone https://github.com/RahatulAshakin/FinBERT_Quantum_Optimization.git
     cd FinBERT_Quantum_Optimization
     ```
 
@@ -90,8 +90,3 @@ Feel free to use, modify, and distribute it with attribution.
 ## Author
 **[Md Rahatul Ashakin]**  
 For any queries or collaboration, feel free to connect!
-
-
-
-
----
