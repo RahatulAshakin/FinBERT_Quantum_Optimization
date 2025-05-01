@@ -1,10 +1,31 @@
 # FinBERT Quantum Optimization Project
 
 ## Overview
-This project fine-tunes the **FinBERT** model for financial sentiment analysis on a custom dataset and enhances its performance using **Quantum Optimization techniques** such as **QAOA** (Quantum Approximate Optimization Algorithm).
-
-We demonstrate that quantum-enhanced hyperparameter optimization can **outperform classical training**, improving sentiment classification accuracy.
-
+In current quantum computing experiments, pervasive noise and the lack of robust error
+correction mechanisms pose significant challenges to reproducibility and result stability. Because
+today’s quantum processors operate in the Noisy Intermediate-Scale Quantum (NISQ) regime
+without full error correction, various error sources – including qubit decoherence, imperfect gate
+operations (limited gate fidelity), inter-qubit crosstalk, and measurement (readout) errors – can
+accumulate throughout a computation​. Qubit decoherence refers to the gradual loss of quantum
+coherence as qubits interact with their environment, which causes quantum information to decay
+into classical states​. This limits how long computations can run before the quantum state
+essentially randomizes. Similarly, finite gate fidelities mean that each quantum logic gate has a
+non-zero chance of introducing an error due to control pulse imperfections or calibration drift.
+Crosstalk errors occur when operations on one qubit inadvertently disturb the state of a nearby
+qubit due to unintended coupling or control signal leakage and have been identified as a
+significant source of error in current hardware​. Meanwhile, readout errors during measurement
+can cause the reported qubit state to be incorrect (e.g., reading a 0 as 1 or vice versa), further
+skewing the results​. Collectively, these noise processes degrade the fidelity of quantum
+operations and lead to high variability in outputs. Running the same algorithm multiple times can
+yield fluctuating outcomes because random error fluctuations at each run accumulate differently,
+undermining reliable reproducibility​. This noise-induced variability can also disrupt algorithmic
+convergence – for instance, in iterative algorithms, noise can alter the measured objective
+function and prevent consistent convergence to the same solution. Overall, current quantum
+algorithm results often require statistical averaging over many runs to distinguish signal from
+noise, and even then the results have significant uncertainty. While these limitations currently
+constrain quantum computing experiments, ongoing advances in quantum error correction and
+error mitigation techniques are expected to gradually improve fidelity and stability, bringing
+more consistent and reproducible outcomes over time.
 ---
 
 ## Project Structure
